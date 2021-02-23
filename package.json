@@ -1,0 +1,28 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "test websocket server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TWetmore/websockettest"
+  },
+  "keywords": [
+    "test"
+  ],
+  "engines": {
+    "node": "12.17.x"
+  },
+  "author": "TJ Wetmore",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "express": "^4.17.1",
+    "utf-8-validate": "^5.0.4",
+    "ws": "^7.4.3"
+  }
+}
